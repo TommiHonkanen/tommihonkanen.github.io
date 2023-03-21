@@ -4,11 +4,11 @@ import JavaScriptLogo from "../assets/javascript.png";
 import ScalaLogo from "../assets/scala.png";
 import HtmlLogo from "../assets/html.png";
 import CssLogo from "../assets/css.png";
-// import NodeLogo from "../assets/node.png";
 import TypeScriptLogo from "../assets/typescript.png";
 import CLogo from "../assets/C.png";
 import GitLogo from "../assets/git.png";
-// import AzureLogo from "../assets/azure.png";
+import AzureLogo from "../assets/azure.png";
+import ReactNativeLogo from "../assets/react-native.png";
 import SqlLogo from "../assets/sql.png";
 import HaskellLogo from "../assets/haskell.png";
 import Skill from "./Skill";
@@ -58,13 +58,14 @@ const Skills: React.FC<Props> = ({ skillsRef }) => {
       </h1>
       <div className={"logos"} style={styles.logos}>
         <Skill image={ReactLogo} text={"React"} />
+        <Skill image={ReactNativeLogo} text={"React Native"} />
         <Skill image={JavaScriptLogo} text={"JavaScript"} />
         <Skill image={TypeScriptLogo} text={"TypeScript"} />
         <Skill image={ScalaLogo} text={"Scala"} />
+        <Skill image={AzureLogo} text={"Azure DevOps"} />
         <Skill image={HtmlLogo} text={"HTML"} />
         <Skill image={CssLogo} text={"CSS"} />
         <Skill image={HaskellLogo} text={"Haskell"} />
-        {/*<Skill image={NodeLogo} text={"Node.JS"} />*/}
         <Skill image={CLogo} text={"C"} />
         <Skill image={GitLogo} text={"Git"} />
         <Skill image={SqlLogo} text={"SQL"} />

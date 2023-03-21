@@ -92,7 +92,7 @@ const Navbar: React.FC<Props> = ({
       padding: "14px 16px",
       fontWeight: "bold",
       fontSize: "20px",
-      marginRight: "20px",
+      marginRight: "35px",
     } as CSSProperties,
   };
 
