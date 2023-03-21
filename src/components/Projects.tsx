@@ -50,7 +50,7 @@ const Projects: React.FC<Props> = ({ projectsRef }) => {
           name={"Portfolio Website"}
           image={Portfolio}
           description={
-            "This is a website that I made to showcase my projects and skills. The website is made using React and is hosted on GitHub Pages. The website is respnsive and works on all screen sizes."
+            "This is a website that I made to showcase my projects and skills. The website is made using React and is hosted on GitHub Pages. The website is responsive and works on all screen sizes."
           }
           technologies={"React, TypeScript, CSS"}
           link={"https://github.com/TommiHonkanen/portfolio-website"}
