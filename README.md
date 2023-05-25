@@ -2,7 +2,7 @@
 
 This is a personal portfolio website developed using React. The goal of this website is to showcase projects, skills, and personal information to potential employers and clients.
 
-You can view the deployed website here: [tommihonkanen.github.io/portfolio-website](https://tommihonkanen.github.io)
+You can view the deployed website here: [tommihonkanen.github.io](https://tommihonkanen.github.io)
 
 ## Features
 
